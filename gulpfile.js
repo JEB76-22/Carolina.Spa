@@ -46,15 +46,25 @@ function versionAvif() {
         .pipe( dest('build/img'))
 }
 
+function archivosEstaticos() {
+    return src(['index.html', 'js/**/*'])
+        .pipe( dest('build') )
+}
+
 function dev() {
     watch( 'src/scss/**/*.scss', css );
     watch( 'src/img/**/*', imagenes );
 }
 
+function build() {
+    return series( archivosEstaticos, imagenes, versionWebp, versionAvif, css );
+}
 
 exports.css = css;
 exports.dev = dev;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
 exports.versionAvif = versionAvif;
+exports.archivosEstaticos = archivosEstaticos;
+exports.build = build;
 exports.default = series( imagenes, versionWebp, versionAvif, css, dev  );
