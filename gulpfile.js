@@ -13,14 +13,12 @@ const webp = require('gulp-webp');
 const avif = require('gulp-avif');
 
 function css( done ) {
-    src('src/scss/app.scss')
+    return src('src/scss/app.scss')
         .pipe( sourcemaps.init() )
         .pipe( sass() )
         .pipe( postcss([ autoprefixer(), cssnano() ]) )
         .pipe( sourcemaps.write('.'))
-        .pipe( dest('build/css') )
-
-    done();
+        .pipe( dest('build/css') );
 }
 
 function imagenes() {
@@ -56,9 +54,7 @@ function dev() {
     watch( 'src/img/**/*', imagenes );
 }
 
-function build() {
-    return series( archivosEstaticos, imagenes, versionWebp, versionAvif, css );
-}
+const build = series( archivosEstaticos, imagenes, versionWebp, versionAvif, css );
 
 exports.css = css;
 exports.dev = dev;
