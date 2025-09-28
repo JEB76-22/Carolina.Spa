@@ -6,6 +6,26 @@
 
 **Carolina Spa** es un sitio web moderno y elegante diseñado para un spa y salón de belleza. La aplicación presenta una interfaz limpia y profesional que permite a los clientes conocer los servicios, productos y horarios del establecimiento, además de facilitar la reserva de citas.
 
+## 🌐 Demo en Vivo
+
+**Visita el sitio web:** [AppComida](https://appcomida-2025.netlify.app/)
+
+
+## 📸 Capturas de Pantalla
+
+![Vista Principal](build/img/carolinaSpa.png)
+![Vista Principal](build/img/carolinaSpa2.png)
+![Vista Principal](build/img/carolinaSpa3.png)
+![Vista Principal](build/img/carolinaSpa4.png)
+![Vista Principal](build/img/carolinaSpa5.png)
+![Vista Móvil](build/img/carolinaSpa6.png)
+![Vista Móvil](build/img/carolinaSpa7.png)
+
+
+
+
+
+
 ### ✨ Características Principales
 
 - **Diseño Responsivo**: Optimizado para dispositivos móviles, tablets y escritorio
@@ -108,7 +128,7 @@ CarolinaSpa/
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/tu-usuario/carolina-spa.git
+   git clone https://github.com/JEB76-22/Carolina.Spa
    cd carolina-spa
    ```
 
