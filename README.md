@@ -204,6 +204,8 @@ Para más información sobre el proyecto o servicios de desarrollo web:
 
 - **Proyecto**: Carolina Spa & Salon
 - **Desarrollador**: JEB$DEV de Javier Berchtold
+- **Repositorios**: https://github.com/JEB76-22?tab=repositories
+- **Correo**: j.e.b.inter@gmail.com
 - **Tecnologías**: HTML5, CSS3, SASS, JavaScript, Gulp
 
 ---
