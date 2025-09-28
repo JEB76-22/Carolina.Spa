@@ -6,9 +6,7 @@
 
 **Carolina Spa** es un sitio web moderno y elegante diseñado para un spa y salón de belleza. La aplicación presenta una interfaz limpia y profesional que permite a los clientes conocer los servicios, productos y horarios del establecimiento, además de facilitar la reserva de citas.
 
-## 🌐 Demo en Vivo
 
-**Visita el sitio web:** [AppComida](https://appcomida-2025.netlify.app/)
 
 
 ## 📸 Capturas de Pantalla
