@@ -161,7 +161,7 @@ El proyecto utiliza la metodología BEM (Block Element Modifier) para una nomenc
 **JEB$DEV de Javier Berchtold**
 
 - **Desarrollador Frontend**: Especializado en tecnologías web modernas
-- **Metodología**: BEM, SASS, Gulp, CSS Grid
+- **Metodología**:git 
 - **Enfoque**: Desarrollo de sitios web profesionales y optimizados
 
 ## 📄 Licencia
