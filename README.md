@@ -1,6 +1,6 @@
 # 🌸 Carolina Spa - Sitio Web Profesional
 
-![Carolina Spa]()
+![Carolina Spa](https://carolinaapp-2525.netlify.app/)
 
 ## 📋 Descripción del Proyecto
 
