@@ -1,6 +1,6 @@
 # 🌸 Carolina Spa - Sitio Web Profesional
 
-![Carolina Spa](build/img/logo.svg)
+![Carolina Spa]()
 
 ## 📋 Descripción del Proyecto
 
